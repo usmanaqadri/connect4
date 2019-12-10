@@ -56,7 +56,7 @@ while not game_over:
             drop_piece(board, row, col, 1)
 
             if winning_move(board, 1):
-                print("PLayer 1 wins!")
+                print("Player 1 wins!")
                 game_over = True
 
     # Ask for Player 2 input
@@ -69,9 +69,9 @@ while not game_over:
             drop_piece(board, row, col, 2)
 
             if winning_move(board, 2):
-                print("PLayer 2 wins!")
+                print("Player 2 wins!")
                 game_over = True
-                
+
 
     print_board(board)
 
